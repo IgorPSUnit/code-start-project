@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark py-4" data-bs-theme="dark">
+            <div class="container-fluid">
+                <img src="./assets/logo.svg" alt="Code Start" width="100px">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Etapas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Menu 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disable" href="#">Menu 4</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Serviços
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <section id="banner" class="my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center">
+                    <h1 class="fw-bold">A melhor solução para sua empresa</h1>
+                    <p>Nosso time desenvolverá a solução que você precisa para fazer seu negócio evoluir</p>
+                    <button type="button" class="btn btn-primary">Conheça mais</button>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="./assets/business.jpg" alt="Solução Code Start" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="steps">
+        <div class="container px-4">
+            <div class="row">
+                <h1 class="pb-2 border-bottom">Nossas Etapas</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="my-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0b5ed7"
+                            class="bi bi-calendar3" viewBox="0 0 16 16">
+                            <path
+                                d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z" />
+                            <path
+                                d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-primary-emphasis">Agendamento</h3>
+                    <p>Você marca um horario na nossa agenda para que possamos entender a sua demanda</p>
+                    <a href="#" class="icon-link">Clique aqui para marcar</a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="my-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0b5ed7"
+                            class="bi bi-card-list" viewBox="0 0 16 16">
+                            <path
+                                d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z" />
+                            <path
+                                d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8m0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-primary-emphasis">Proposta</h3>
+                    <p>Com a ideia compreendida, nós montaremos a sua proposta e te enviaremos</p>
+                    <a href="#" class="icon-link">Entenda como funciona</a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="my-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0b5ed7"
+                            class="bi bi-chat-right-text" viewBox="0 0 16 16">
+                            <path
+                                d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z" />
+                            <path
+                                d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6m0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </div>
+                    <h3 class="fs-2 text-primary-emphasis">Inicio do projeto</h3>
+                    <p>Com a proposta aceita, te mandaremos uma mensagem para marcar o dia e ahora da primeira reunião
+                        para desenvolver seu projeto.</p>
+                    <a href="#" class="icon-link">Entenda como funciona</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="slider" class="my-4">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/banner-1.png" class="d-block w-100" alt="Slide 1 Cold Start">
+                </div>
+                <div class="carousel-item ">
+                    <img src="/assets/banner-2.png" class="d-block w-100" alt="Slide 2 Cold Start">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+    <section id="benefits">
+        <div class="containter">
+            <div class="row">
+                <h1 class="text-center text-primary">Benefícios</h1>
+                <h2 class="text-center fs-4 text-secondary">Essas são as vantagens de trabalhar conosco</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="card m-4">
+                        <img src="./assets/personalizado.png" alt="Personalização Code Start" width="100px"
+                            class="mx-auto my-2" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Personalização</h5>
+                            <p class="card-text">
+                                Seu projeto será totalmente personalizado de acordo com sua marca. Desde as cores até os
+                                textos para que façam sentido para seu negócio.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card m-4">
+                        <img src="./assets/cliente.png" alt="Personalização Code Start" width="100px"
+                            class="mx-auto my-2" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Foco no cliente</h5>
+                            <p class="card-text">
+                                A comunicação dentro do seu site/app será escrita com foco 100% em convencer o seu
+                                cliente que seu projeto é a solução ideal para ele.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card m-4">
+                        <img src="./assets/internet.png" alt="Personalização Code Start" width="100px"
+                            class="mx-auto my-2" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Globalização</h5>
+                            <p class="card-text">
+                                O seu projeto contará com um site e com um aplicativo IOS e Android para que você possa
+                                alcançar o seu cliente em qualquer parte do mundo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card m-4">
+                        <img src="./assets/suporte.png" alt="Personalização Code Start" width="100px"
+                            class="mx-auto my-2" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Suporte</h5>
+                            <p class="card-text">
+                                Para qualquer imprevisto que seu app/sistema enfrentar nós oferecemos um suporte 24h por
+                                7 dias na semana para solucionar seu problema.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card m-4">
+                        <img src="./assets/seguranca.png" alt="Personalização Code Start" width="70px"
+                            class="mx-auto my-2" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Segurança</h5>
+                            <p class="card-text">
+                                Na Code Start todo proceso é feito com total segurança sobre seus dados. Nada é
+                                divulgado e tudo é apagado assim que o projeto é entregue.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card m-4">
+                        <img src="./assets/prazo.png" alt="Personalização Code Start" width="100px"
+                            class="mx-auto my-2" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Prazo</h5>
+                            <p class="card-text">
+                                Em 30 dias úteis o seu projeto sairá do absoluto 0 para o ar e totalmente funcional para
+                                que você
+                                possa apresentar sua marca para o mundo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="plans" class="bg-dark py-4" data-bs-theme="dark">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center text-light">Planos</h1>
+                <h2 class="text-center fs-4 text-light">Entenda como funciona nossos planos.</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title text-light">Plano Platinum</h3>
+                            <h4 class="card-subtitle border-bottom fs-5 pb-2 mb-2">Beneficios do plano</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Até 1000 acessos simultaneos</li>
+                                <li class="list-group-item">5 emails personalizados</li>
+                                <li class="list-group-item">Sistema we, App, IOS e Android incluso</li>
+                                <li class="list-group-item">Suporte em até 5 horas</li>
+                                <li class="list-group-item">Dóminio personalizado</li>
+                                <li class="list-group-item"><s>Acesso ao nosso time especializado de marketing</s></li>
+                            </ul>
+                            <div class="d-flex justify-content-center mt-3">
+                                <button class="btn btn-success">Fazer Orçamento</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title text-light">Plano Gold</h3>
+                            <h4 class="card-subtitle border-bottom fs-5 pb-2 mb-2">Beneficios do plano</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Até 5000 acessos simultaneos</li>
+                                <li class="list-group-item">10 emails personalizados</li>
+                                <li class="list-group-item">Sistema we, App, IOS e Android incluso</li>
+                                <li class="list-group-item">Suporte Vip e imediato</li>
+                                <li class="list-group-item">Dóminio personalizado</li>
+                                <li class="list-group-item">Acesso ao nosso time especializado de marketingas</li>
+                            </ul>
+                            <div class="d-flex justify-content-center mt-3">
+                                <button class="btn btn-success">Fazer Orçamento</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
